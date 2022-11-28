@@ -1,38 +1,94 @@
-.App {
+.app{
+  margin: 0;
+}
+.img-fluid {
+  width: 100%;
+  height: 400px;
+}
+
+.asset {
+  margin-top: 50px;
+  margin-left: 100px;
+  text-align: left;
+  width: 300px;
+  
+}
+.asset1 {
+  margin-top: 150px;
+  margin-left: 100px;
+  text-align: left;
+}
+
+.asset3 {
+  margin-top: 150px;
+  margin-left: 100px;
+  text-align: left;
+}
+
+.text{
+  display: block;
+  box-sizing: border-box;
+  max-width: 105ch;
+  text-overflow: ellipsis;
+  font-size: large;
+  margin-top: 25px;
+  margin-left: 100px;
+  text-align: left;
+}
+
+.card {
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  margin-top: 100px;
+  margin-left: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  width: 75%;
+  height: 230px;
+}
+
+iframe {
+  width: 100%;
+  height: 200px;
+}
+
+
+.card-text{
+  margin-top: 25px;
+  font-size: 20px;
+}
+.section2{
+  margin-top: 60px;
+  background-color: rgba(223, 209, 209, 0.2);
+}
+
+.contact {
+  display: block;
+  margin-top: 150px;
+  margin-left: 75px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width:768px) {
+  iframe {
+    width: 100%;
+    
+  }
+  .card {
+    width: 80%;
+  height: 250px;
+  display: flex;
+  margin-left: 80px;
+  }
+  .card-text {
+    margin-left: 80px;
+  }
+}
+
+.form{
+  margin-bottom: 55px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
